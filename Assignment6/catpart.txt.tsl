@@ -1,0 +1,1264 @@
+
+Test Case 1  		<error>
+   Number of files provieded :  Zero
+
+
+Test Case 2  		<single>
+   Size :  Empty
+
+
+Test Case 3  		<single>
+   File exist :  One
+
+
+Test Case 4  		<single>
+   File name with slash :  True
+
+
+Test Case 5  		<single>
+   File name with numbers :  One
+
+
+Test Case 6  		<single>
+   File can open or not :  Open
+
+
+Test Case 7  		<error>
+   Destination path is valid or not  :  Not valid
+
+
+Test Case 8  		<error>
+   Destination path is valid or not  :  Not selected
+
+
+Test Case 9  		<single>
+   Number of command line arguements and options :  Zero
+
+
+Test Case 10 		<error>
+   Check specific extension of the file :  False
+
+
+Test Case 11 		<error>
+   Checking Symbolic link :  Not founded
+
+
+Test Case 12 		<error>
+   Presence of a file corresponding to the name :  Not present
+
+
+Test Case 13 		(Key = 2.2.2.2.2.2.1.2.1.1.1.1.1.1.1.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 14 		(Key = 2.2.2.2.2.2.1.2.1.1.1.1.1.1.2.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 15 		(Key = 2.2.2.2.2.2.1.2.1.1.1.2.1.1.1.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 16 		(Key = 2.2.2.2.2.2.1.2.1.1.1.2.1.1.2.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 17 		(Key = 2.2.2.2.2.2.1.2.1.1.2.1.1.1.1.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 18 		(Key = 2.2.2.2.2.2.1.2.1.1.2.1.1.1.2.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 19 		(Key = 2.2.2.2.2.2.1.2.1.1.2.2.1.1.1.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 20 		(Key = 2.2.2.2.2.2.1.2.1.1.2.2.1.1.2.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 21 		(Key = 2.2.2.2.2.2.1.2.1.2.1.1.1.1.1.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 22 		(Key = 2.2.2.2.2.2.1.2.1.2.1.1.1.1.2.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 23 		(Key = 2.2.2.2.2.2.1.2.1.2.1.2.1.1.1.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 24 		(Key = 2.2.2.2.2.2.1.2.1.2.1.2.1.1.2.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 25 		(Key = 2.2.2.2.2.2.1.2.1.2.2.1.1.1.1.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 26 		(Key = 2.2.2.2.2.2.1.2.1.2.2.1.1.1.2.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 27 		(Key = 2.2.2.2.2.2.1.2.1.2.2.2.1.1.1.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 28 		(Key = 2.2.2.2.2.2.1.2.1.2.2.2.1.1.2.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 29 		(Key = 2.2.2.2.2.2.1.2.2.1.1.1.1.1.1.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 30 		(Key = 2.2.2.2.2.2.1.2.2.1.1.1.1.1.2.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 31 		(Key = 2.2.2.2.2.2.1.2.2.1.1.2.1.1.1.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 32 		(Key = 2.2.2.2.2.2.1.2.2.1.1.2.1.1.2.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 33 		(Key = 2.2.2.2.2.2.1.2.2.1.2.1.1.1.1.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 34 		(Key = 2.2.2.2.2.2.1.2.2.1.2.1.1.1.2.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 35 		(Key = 2.2.2.2.2.2.1.2.2.1.2.2.1.1.1.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 36 		(Key = 2.2.2.2.2.2.1.2.2.1.2.2.1.1.2.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 37 		(Key = 2.2.2.2.2.2.1.2.2.2.1.1.1.1.1.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 38 		(Key = 2.2.2.2.2.2.1.2.2.2.1.1.1.1.2.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 39 		(Key = 2.2.2.2.2.2.1.2.2.2.1.2.1.1.1.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 40 		(Key = 2.2.2.2.2.2.1.2.2.2.1.2.1.1.2.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 41 		(Key = 2.2.2.2.2.2.1.2.2.2.2.1.1.1.1.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 42 		(Key = 2.2.2.2.2.2.1.2.2.2.2.1.1.1.2.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 43 		(Key = 2.2.2.2.2.2.1.2.2.2.2.2.1.1.1.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 44 		(Key = 2.2.2.2.2.2.1.2.2.2.2.2.1.1.2.2.)
+   Number of files provieded                     :  One
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 45 		(Key = 3.2.2.2.2.2.1.2.1.1.1.1.1.1.1.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 46 		(Key = 3.2.2.2.2.2.1.2.1.1.1.1.1.1.2.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 47 		(Key = 3.2.2.2.2.2.1.2.1.1.1.2.1.1.1.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 48 		(Key = 3.2.2.2.2.2.1.2.1.1.1.2.1.1.2.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 49 		(Key = 3.2.2.2.2.2.1.2.1.1.2.1.1.1.1.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 50 		(Key = 3.2.2.2.2.2.1.2.1.1.2.1.1.1.2.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 51 		(Key = 3.2.2.2.2.2.1.2.1.1.2.2.1.1.1.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 52 		(Key = 3.2.2.2.2.2.1.2.1.1.2.2.1.1.2.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 53 		(Key = 3.2.2.2.2.2.1.2.1.2.1.1.1.1.1.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 54 		(Key = 3.2.2.2.2.2.1.2.1.2.1.1.1.1.2.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 55 		(Key = 3.2.2.2.2.2.1.2.1.2.1.2.1.1.1.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 56 		(Key = 3.2.2.2.2.2.1.2.1.2.1.2.1.1.2.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 57 		(Key = 3.2.2.2.2.2.1.2.1.2.2.1.1.1.1.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 58 		(Key = 3.2.2.2.2.2.1.2.1.2.2.1.1.1.2.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 59 		(Key = 3.2.2.2.2.2.1.2.1.2.2.2.1.1.1.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 60 		(Key = 3.2.2.2.2.2.1.2.1.2.2.2.1.1.2.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 61 		(Key = 3.2.2.2.2.2.1.2.2.1.1.1.1.1.1.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 62 		(Key = 3.2.2.2.2.2.1.2.2.1.1.1.1.1.2.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 63 		(Key = 3.2.2.2.2.2.1.2.2.1.1.2.1.1.1.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 64 		(Key = 3.2.2.2.2.2.1.2.2.1.1.2.1.1.2.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 65 		(Key = 3.2.2.2.2.2.1.2.2.1.2.1.1.1.1.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 66 		(Key = 3.2.2.2.2.2.1.2.2.1.2.1.1.1.2.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 67 		(Key = 3.2.2.2.2.2.1.2.2.1.2.2.1.1.1.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 68 		(Key = 3.2.2.2.2.2.1.2.2.1.2.2.1.1.2.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 69 		(Key = 3.2.2.2.2.2.1.2.2.2.1.1.1.1.1.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 70 		(Key = 3.2.2.2.2.2.1.2.2.2.1.1.1.1.2.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 71 		(Key = 3.2.2.2.2.2.1.2.2.2.1.2.1.1.1.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 72 		(Key = 3.2.2.2.2.2.1.2.2.2.1.2.1.1.2.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 73 		(Key = 3.2.2.2.2.2.1.2.2.2.2.1.1.1.1.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 74 		(Key = 3.2.2.2.2.2.1.2.2.2.2.1.1.1.2.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 75 		(Key = 3.2.2.2.2.2.1.2.2.2.2.2.1.1.1.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  True
+   Presence of a file corresponding to the name  :  Present
+
+
+Test Case 76 		(Key = 3.2.2.2.2.2.1.2.2.2.2.2.1.1.2.2.)
+   Number of files provieded                     :  Multiple
+   Size                                          :  Not empty
+   File exist                                    :  Many
+   File name with slash                          :  False
+   File name with numbers                        :  Many
+   File can open or not                          :  Not open
+   Destination path is valid or not              :  Valid
+   Number of command line arguements and options :  One or more
+   Command line argument for backup -b           :  -b was not entered
+   Command line argument for force -f            :  -f was not entered
+   Command line argument for recursive -r        :  -r was not entered
+   Command line argument for verbose -v          :  -v was not enterd
+   Check specific extension of the file          :  True
+   Checking Symbolic link                        :  founded
+   Check file is already copied                  :  False
+   Presence of a file corresponding to the name  :  Present
+

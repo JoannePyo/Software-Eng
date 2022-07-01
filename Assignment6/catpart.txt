@@ -1,0 +1,76 @@
+# NumOfFiles
+   Number of files provieded:
+	Zero.			[error]  [property zeroFiles]
+	One.			[if !zeroFiles]
+	Multiple.
+
+# File
+   Size:
+	Empty.			[single] [property zeroFiles]
+	Not empty.
+
+   File exist:
+	Not found		[error]
+	One.			[single]	[if !zeroFiles] [property fileExist]
+	Many.			[multiple]	[If !zeroFiles] [property fileExist]
+
+   File name with slash:
+	True.			[single] [if fileExist] [proprerty fileNameWithSlash]
+	False.
+   	
+   File name with numbers:
+	Not found		
+	One.			[single] [if !zeroFiles] [property fileNameWithNumbers]
+	Many.			          [if !zeroFiles] [property fileNameWithNumbers]
+
+   File can open or not:
+	Open.			[single] [if fileExist] [property canFileOpen]
+	Not open.			
+
+   Destination path is valid or not :
+	Valid.			[if !zeroFiles] [property fileExists]
+	Not valid.			[error]	    [property fileNotExists]
+	Not selected.		[error]          [property fileNotExists] 
+
+# OPT
+
+   Number of command line arguements and options: 
+	Zero.			[single][property emptyOPT]
+	One or more.
+
+   Command line argument for backup -b:
+	-b was entered.		[if !emptyOPT]
+	-b was not entered.		[if !emptyOPT]
+
+   Command line argument for force -f:
+	-f was entered.		[if !emptyOPT] [property removeIt && tryAgain]
+	-f was not entered.		[if !emptyOPT]
+
+   Command line argument for recursive -r:
+	-r was entered.		[if !emptyOPT && fileExists]
+	-r was not entered. 		[if !emptyOPT]
+
+   Command line argument for verbose -v:
+	-v was enterd.		[if !emptyOPT]
+	-v was not enterd.		[if !emptyOPT]
+
+# File extension
+   Check specific extension of the file:
+	True.			[if !emptyOPT] [property FileExtension]
+	False.			[error]  [if !emptyOPT]
+
+# Symbolic link
+   Checking Symbolic link:
+	founded.			[if !emptyOPT] [property foundedSymbolic]
+	Not founded.		[error]  [if!emptyOPT]
+
+# Copy file
+   Check file is already copied:
+	True.			[if !emptyOPT] [property copiedFile]
+	False.			[if !emptyOPT]
+
+# Filename
+   Presence of a file corresponding to the name:
+	Not present.		[error]
+	Present.		
+
